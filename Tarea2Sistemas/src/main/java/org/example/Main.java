@@ -9,6 +9,8 @@ public class Main {
 
         System.out.println("cual es tu nombre");
         name =  d.nextLine();
-        System.out.println("Hola"+ name + " como te encuentras hoy!");
+        System.out.println("cual es tu edad");
+        String edad =  d.nextLine();
+        System.out.println("Hola "+ name + " como te encuentras hoy! cuentas con la edad de "+edad);
     }
 }

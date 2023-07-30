@@ -10,7 +10,12 @@ public class Main {
         System.out.println("cual es tu nombre");
         name =  d.nextLine();
         System.out.println("cual es tu edad");
-        String edad =  d.nextLine();
-        System.out.println("Hola "+ name + " como te encuentras hoy! cuentas con la edad de "+edad);
+        int edad =  d.nextInt();
+        if(edad >= 18){
+            System.out.println("Hola "+ name + "cuentas con la edad de "+edad + "eres mayor de edad");
+        }else{
+            System.out.println("Hola "+ name + "cuentas con la edad de "+edad + "eres menor de edad");
+        }
+
     }
 }
